@@ -21,6 +21,10 @@ $initial-delay: 2s;
   }
 }
 
+
+// Disable SVG animation on live site while we tweak performance.
+// See https://github.com/palantir/blueprint/issues/108
+/*
 // Only do SVG stroke animation when not on mobile
 $mobile-breakpoint: 425px;
 
@@ -36,6 +40,7 @@ $mobile-breakpoint: 425px;
     }
   }
 }
+*/
 
 @keyframes pt-sketch-wireframe {
   to {
